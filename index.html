@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Persiapan</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <!-- CSS dari assets -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- Isi web -->
+    <div class="kotak">
+      <!-- Kotak 1 = Gambar -->
+      <div class="kotak1">
+        <h2>Gambar</h2>
+        <p>Ini contoh gambar</p>
+        <img src="assets/media/unja.png" alt="Gambar Unja" width="30%" />
+        <br>
+        <button onclick="gambar()" class="btn btn-primary">Click</button>
+        <p id="teks-gambar"></p>
+      </div>
+
+      <!-- Kotak 2 = Video -->
+      <div class="kotak2">
+        <h2>Video</h2>
+        <p>Ini contoh video</p>
+        <video controls style="max-width: 70%">
+          <source src="assets/media/video.mp4" />
+        </video>
+        <br>
+        <button onclick="video()" class="btn btn-primary">Click</button>
+        <p id="teks-video"></p>
+      </div>
+
+      <!-- Kotak 3 = Sound -->
+      <div class="kotak3">
+        <h2>Sound</h2>
+        <p>Ini contoh suara</p>
+        <audio controls>
+          <source src="assets/media/sound.mp3" />
+        </audio>
+        <br>
+        <button onclick="sound()" class="btn btn-primary">Click</button>
+        <p id="teks-sound"></p>
+      </div>
+
+      <!-- Kotak 4 = Kalkulator -->
+      <div class="kotak4">
+        <h2>Kalkulator</h2>
+        <p>Ini kalkulator</p>
+        <input type="number" id="angka1" placeholder="Angka 1" />
+        <select name="operator" id="operator">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">x</option>
+          <option value="/">/</option>
+        </select>
+        <input type="number" id="angka2" placeholder="Angka 2" />
+        <br />
+        <button onclick="hitung()" class="btn btn-primary">Hitung</button>
+        <p id="hasil"></p>
+      </div>
+      
+      <!-- Skrip bootstrap (JS) -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+      <!-- Skrip jQuery -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer" ></script>
+      <!-- Skrip dari assets -->
+      <script src="assets/js/script.js"></script>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+body{
+    margin: 20px;
+    background-image: url("../media/bg.jpg");
+    background-size: cover;
+}
+
+.kotak{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.kotak1, .kotak2, .kotak3, .kotak4 {
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+
+button{
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kotak4 input {
+    width: 100px;
+    padding: 8px;
+    height: 60px;
+}
+
+.kotak4 select {
+    background-color: rgb(75, 75, 75);
+    color: white;
+    font-size: 25px;
+    width: 70px;
+    padding: 8px;
+    height: 60px;
+}
+
+#hasil {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
