@@ -16,6 +16,20 @@ function sound(){
     alert("ini suara/audio")
 }
 
+// Fungsi untuk mengubah gambar ketika tombol diklik
+$("#btn").click(function () {
+        const $img = $("#foto");
+        const src = $img.attr("src");
+
+        if (src.includes("../assets/media/200.png")) {
+            // ganti ke gambar kedua
+            $img.attr("src", "../assets/media/403.png");
+        } else {
+            // kembalikan ke gambar pertama
+            $img.attr("src", "../assets/media/200.png");
+        }
+    });
+
 // Fungsi untuk kalkulator
 function hitung(){
     let angka1 = parseFloat($('#angka1').val());

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Persiapan</title>
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
     <!-- CSS dari assets -->
@@ -11,19 +12,26 @@
   </head>
 
   <body>
-    <!-- Isi web -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark" style="background-color: rgb(57, 57, 160);">
+      <div class="container">
+          <a class="navbar-brand" href="#">Faris Daffa</a>
+      </div>
+    </nav>
+
+    <!-- Kotak -->
     <div class="kotak">
-      <!-- Kotak 1 = Gambar -->
+      <!-- Gambar -->
       <div class="kotak1">
         <h2>Gambar</h2>
         <p>Ini contoh gambar</p>
-        <img src="assets/media/unja.png" alt="Gambar Unja" width="30%" />
+        <img src="assets/media/unja.png" alt="Gambar Unja" width="220px" />
         <br>
         <button onclick="gambar()" class="btn btn-primary">Click</button>
         <p id="teks-gambar"></p>
       </div>
 
-      <!-- Kotak 2 = Video -->
+      <!-- Video -->
       <div class="kotak2">
         <h2>Video</h2>
         <p>Ini contoh video</p>
@@ -35,7 +43,7 @@
         <p id="teks-video"></p>
       </div>
 
-      <!-- Kotak 3 = Sound -->
+      <!-- Sound -->
       <div class="kotak3">
         <h2>Sound</h2>
         <p>Ini contoh suara</p>
@@ -47,7 +55,7 @@
         <p id="teks-sound"></p>
       </div>
 
-      <!-- Kotak 4 = Kalkulator -->
+      <!-- Kalkulator -->
       <div class="kotak4">
         <h2>Kalkulator</h2>
         <p>Ini kalkulator</p>
@@ -64,6 +72,15 @@
         <p id="hasil"></p>
       </div>
       
+      <!-- Gambar Berubah -->
+      <div class="kotak5">
+        <h2>Gambar Berubah</h2>
+        <p>Ini contoh gambar berubah-ubah</p>
+        <img id="foto" src="assets/media/403.png" alt="Gambar Kedua" />
+        <br>
+        <button id="btn" class="btn btn-primary">Click</button>
+      </div>
+
       <!-- Skrip bootstrap (JS) -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
       <!-- Skrip jQuery -->
