@@ -1,4 +1,4 @@
-# Latihan Media: Gambar, Video, Audio
+# Pengembangan Web Pratama
 
 Proyek sederhana HTML + Bootstrap + jQuery yang menampilkan tiga kotak (gambar, video, audio) dengan tombol untuk menampilkan teks dan alert.
 
