@@ -28,7 +28,7 @@ function ubahGambar() {
         // kembalikan ke gambar pertama
         $img.attr("src", "../assets/media/200.png");
     }
-}   
+}
 
 // Fungsi untuk kalkulator
 function hitung(){
